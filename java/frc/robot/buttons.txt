@@ -1,0 +1,30 @@
+drive sticks:
+  left joystick trigger = aiming with limelight
+  left axis = left drive velocity
+
+  right joystick trigger pressed = shoot the balls in hopper
+  right joystick trigger released = reverse balls
+  
+  right axis = right drive velocity
+
+  
+
+xbox controller:
+	left side:
+
+		back button = disable shooter wheel
+
+		left trigger = intake stuff
+		
+
+	right side:
+
+		right trigger with other buttons:
+			a pressed = intake pneumatics
+			x pressed = color rotation
+			b pressed = CPM pneumatics
+			y pressed = Climber pneumatics
+	
+	Climber extension/retraction: up and down on joysticks
+		   
+just testing #2 
