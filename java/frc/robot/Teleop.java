@@ -134,10 +134,20 @@ public class Teleop {
 
 		// this.sendIt = robot.jstick.leftJoystick.getTop();
 
+		//sensor on/off with holding A
+		// if(robot.jstick.xboxDriver.getAButtonPressed()){
+		// 	robot.shooter.fixedDistanceState = true;
+		// } else if (robot.jstick.xboxDriver.getAButtonReleased()){
+		// 	robot.shooter.fixedDistanceState = false;
+		// }
+
+		//toggle distance sensing on/off
 		if(robot.jstick.xboxDriver.getAButtonPressed()){
-			robot.shooter.fixedDistanceState = true;
-		} else if (robot.jstick.xboxDriver.getAButtonReleased()){
-			robot.shooter.fixedDistanceState = false;
+			if(robot.shooter.fixedDistanceState){
+				robot.shooter.fixedDistanceState = false;
+			}else{
+				robot.shooter.fixedDistanceState = true;
+			}
 		}
 
 		
