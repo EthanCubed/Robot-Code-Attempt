@@ -1,4 +1,4 @@
-drive sticks:
+xbox controller driver:
   left joystick trigger = aiming with limelight
   left axis = left drive velocity
 
@@ -7,9 +7,8 @@ drive sticks:
   
   right axis = right drive velocity
 
-  
 
-xbox controller:
+xbox controller operator:
 	left side:
 
 		back button = disable shooter wheel
